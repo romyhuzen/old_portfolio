@@ -1,0 +1,118 @@
+/*  
+  Class:  4A7B
+  Name:  R.Huzen
+  Purpose:  Website layout 
+
+  mm-dd-yyyy  Description
+  -----------------  -------------------------------------------------------------------------------------------------
+  10-10-2017  Initial (datum van de aanmaak)
+  10-13-2017  CSS aanpassen
+*/
+
+/*elements*/
+
+html,
+body{
+	padding:0px;
+	width:99.7%;
+	height:99.80%;
+	font-size:100%;
+	font-family:'Ariel';
+	color:white;
+    background-color:#ff3333;	
+}
+
+div{
+	font-size:1.0em;
+}
+
+#hdr {
+	font-size:3.5em;
+	height:100px;
+	text-align:center;
+	padding-top:15px;
+}
+
+span{
+	display:inline-block;
+	padding-top:12px;
+}
+
+#nav {
+	color:black;
+    background-color: #404040;
+	height:50px;
+	text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a:hover{
+    background-color:#bfbfbf;	
+	color:black;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	width:200px;
+	height:33px;
+	text-align:center;
+	padding-top:17px;
+}
+
+.links{
+	float:left;
+	width:100px;
+}
+
+#rechts{
+	float:right;
+}
+
+#cnt{
+	height:100%;
+	overflow:auto;
+	color:white;
+}
+
+#content{
+	height:99%;
+	width:69%;
+	float:left;
+	text-align:center;
+}
+
+#sdr {
+	height:50%;
+	color:white;
+    width:30%;
+	float:right;
+	padding:2px;
+	text-align:center;
+}
+
+#foto{
+	height:225px;
+	margin-left:110px;
+}
+
+#ftr {
+    background-color: #404040;
+	height:20px;
+	text-align:center;
+	padding-bottom:10px;
+	color:white;
+}
+
+#noborder{
+	text-align:center;
+	border:none;
+}
